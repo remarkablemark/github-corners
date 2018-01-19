@@ -1,6 +1,6 @@
 {
   "name": "github-corners",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Embed script for GitHub Corners.",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "src/index.js",
