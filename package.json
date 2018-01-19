@@ -10,6 +10,7 @@
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
+    "prepublishOnly": "npm run clean && npm run build",
     "release": "standard-version"
   },
   "repository": {
