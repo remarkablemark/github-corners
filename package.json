@@ -5,6 +5,7 @@
   "author": "Mark <mark@remarkablemark.org>",
   "main": "src/index.js",
   "scripts": {
+    "build": "mkdir -p dist && cp src/embed.js dist/embed.js && uglifyjs src/embed.js --output dist/embed.min.js --compress --mangle",
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
