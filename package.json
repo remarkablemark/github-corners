@@ -27,7 +27,8 @@
     "@commitlint/config-conventional": "5.2.3",
     "eslint": "4.11.0",
     "husky": "0.14.3",
-    "standard-version": "4.2.0"
+    "standard-version": "4.2.0",
+    "uglify-js": "3.3.7"
   },
   "license": "MIT"
 }
