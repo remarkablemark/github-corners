@@ -13,7 +13,7 @@ See [example](https://jsfiddle.net/remarkablemark/f19eejcb/).
 Include the [embed script](https://unpkg.com/github-corners/dist/) from the [unpkg CDN](https://unpkg.com) in your page:
 
 ```html
-<!-- placed preferably before the closing `<body>` tag -->
+<!-- placed preferably before `</body>` -->
 <script src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
 ```
 
@@ -22,6 +22,12 @@ It's recommended that you specify a [version](https://registry.npmjs.org/github-
 ```html
 <!-- replace `latest` with a version like `0.1.0` -->
 <script src="https://unpkg.com/github-corners@latest/dist/embed.min.js"></script>
+```
+
+You can also improve page loading with `async` or `defer` attribute:
+
+```html
+<script async defer src="https://unpkg.com/github-corners/dist/embed.min.js"></script>
 ```
 
 ## Usage
