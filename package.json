@@ -28,8 +28,8 @@
     "script"
   ],
   "devDependencies": {
-    "@commitlint/cli": "5.2.3",
-    "@commitlint/config-conventional": "5.2.3",
+    "@commitlint/cli": "9.1.1",
+    "@commitlint/config-conventional": "9.1.1",
     "eslint": "4.11.0",
     "husky": "0.14.3",
     "standard-version": "4.2.0",
