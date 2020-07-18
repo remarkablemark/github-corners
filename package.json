@@ -34,5 +34,9 @@
     "standard-version": "4.2.0",
     "uglify-js": "3.10.0"
   },
+  "files": [
+    "/dist",
+    "/src"
+  ],
   "license": "MIT"
 }
