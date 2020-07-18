@@ -23,7 +23,9 @@
   "keywords": [
     "github-corners",
     "github",
-    "corners"
+    "corners",
+    "embed",
+    "script"
   ],
   "devDependencies": {
     "@commitlint/cli": "5.2.3",
