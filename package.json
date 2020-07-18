@@ -7,7 +7,6 @@
   "scripts": {
     "build": "mkdir -p dist && cp src/embed.js dist/embed.js && uglifyjs src/embed.js --output dist/embed.min.js --compress --mangle",
     "clean": "rm -rf dist",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "prepublishOnly": "npm run clean && npm run build",
@@ -31,7 +30,7 @@
     "@commitlint/cli": "9.1.1",
     "@commitlint/config-conventional": "9.1.1",
     "eslint": "4.11.0",
-    "husky": "0.14.3",
+    "husky": "4.2.5",
     "standard-version": "4.2.0",
     "uglify-js": "3.10.0"
   },
