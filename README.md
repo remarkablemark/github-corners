@@ -4,12 +4,12 @@
 
 [![NPM version](https://img.shields.io/npm/v/github-corners.svg)](https://www.npmjs.com/package/github-corners)
 
-Embed script for [Tim Holman](https://github.com/tholman)'s [Github Corners](http://tholman.com/github-corners).
+:octocat: [Github Corners](http://tholman.com/github-corners) embed script inspired by [Tim Holman](https://github.com/tholman).
 
 ### Examples
 
 - [JSFiddle](https://jsfiddle.net/remarkablemark/f19eejcb/)
-- [Repl.it](https://repl.it/@remarkablemark/Github-Corners)
+- [Replit](https://replit.com/@remarkablemark/Github-Corners)
 
 ## Usage
 
